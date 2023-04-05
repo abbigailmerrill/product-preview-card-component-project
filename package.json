@@ -1,0 +1,36 @@
+{
+  "dependencies": {
+    "node-sass": "^8.0.0"
+  },
+  "name": "product-preview-card-component-project",
+  "description": "![Design preview for the Product preview card component coding challenge](./design/desktop-preview.jpg)",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abbigailmerrill/product-preview-card-component-project.git",
+    "sass": "sass --watch scss/styles.scss css/styles.css"
+  },
+  "keywords": [
+    "Abbigail",
+    "Merrill",
+    "frontendmentor.io",
+    "frontend",
+    "mentor",
+    ".io",
+    "github",
+    "git",
+    "Abbi",
+    "Abby"
+  ],
+  "author": "Abbigail Merrill abbigail.merrill@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abbigailmerrill/product-preview-card-component-project/issues"
+  },
+  "homepage": "https://github.com/abbigailmerrill/product-preview-card-component-project#readme"
+}
