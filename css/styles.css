@@ -17,10 +17,17 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .attribution {
-  font-size: 12px;
+  font-size: 10px;
   text-align: center;
   font-weight: 600;
-  margin-top: 2px;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  width: 90%;
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .attribution a {
@@ -41,6 +48,20 @@ h1, h2, h3, h4, h5, h6, p {
   background-position: center;
 }
 
+@media screen and (min-width: 900px) {
+  #main {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .imageBox {
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 25px;
+    height: 75%;
+    width: 45%;
+    margin: 0;
+  }
+}
 .content {
   width: 90%;
   height: 60%;
@@ -105,6 +126,16 @@ h1, h2, h3, h4, h5, h6, p {
   background-repeat: no-repeat;
   background-size: contain;
   margin-right: 10px;
+}
+
+@media screen and (min-width: 900px) {
+  .content {
+    width: 45%;
+    margin: 0;
+    height: 75%;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
