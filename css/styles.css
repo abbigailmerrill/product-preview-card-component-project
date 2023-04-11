@@ -81,7 +81,7 @@ h1, h2, h3, h4, h5, h6, p {
   letter-spacing: 1px;
   color: hsl(158deg, 36%, 37%);
 }
-.content h3 {
+.content h1 {
   font-family: "Fraunces", serif;
   font-size: 2rem;
 }
